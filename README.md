@@ -1,6 +1,6 @@
 # BUND 1d OHLCV Commodities Historical Data — Free Sample
 
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE) [![Dataset rows](https://img.shields.io/badge/full_dataset-521_rows-blue)](https://ork.ad/) [![Updated](https://img.shields.io/badge/weekly_update-every_Sunday-green)](https://ork.ad/) [![Full data on ork.ad](https://img.shields.io/badge/download-ork.ad-orange)](https://ork.ad/)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE) [![Dataset rows](https://img.shields.io/badge/full_dataset-3_548_rows-blue)](https://ork.ad/) [![Updated](https://img.shields.io/badge/weekly_update-every_Sunday-green)](https://ork.ad/) [![Full data on ork.ad](https://img.shields.io/badge/download-ork.ad-orange)](https://ork.ad/)
 
 ### → [**Download the full BUND dataset on ork.ad**](https://ork.ad/)
 
@@ -24,11 +24,11 @@
 - **Ultra high-quality 1d OHLCV** for **Euro Bund** (Commodities)
 - **Extended-session energy and industrial metals — beyond US cash hours**
 - **Clean CSV schema** — `time, open, high, low, close, volume` (no gaps in formatting)
-- **Free evaluation sample** on GitHub (`1d`) · **13 timeframes** on [ork.ad](https://ork.ad/) · **521** `1d` rows in the full archive
+- **Free evaluation sample** on GitHub (`1d`) · **13 timeframes** on [ork.ad](https://ork.ad/) · **3,548** `1d` rows in the full archive
 - Built for **backtesting**, **algorithmic trading** and **quantitative finance** workflows
 - **Weekly refresh** — [ork.ad](https://ork.ad/) every **Sunday**; GitHub `1d` sample updated in sync
 
-> **Sample on GitHub** · `BUND_1d.csv` (510 rows, `2024-07-02` → `2026-07-02`). **Full archive on [ork.ad](https://ork.ad/)** — **521** `1d` rows (~0.03 MB), **13 timeframes** (``1m`, `3m`, `5m`, `15m`, `30m`, `1H`, `2H`, `4H`, `8H`, `12H`, `16H`, `1D`, `1W``), `2024-06-17` → `2026-07-02`.
+> **Sample on GitHub** · `BUND_1d.csv` (507 rows, `2024-07-03` → `2026-07-03`). **Full archive on [ork.ad](https://ork.ad/)** — **3,548** `1d` rows (~0.15 MB), **13 timeframes** (``1m`, `3m`, `5m`, `15m`, `30m`, `1H`, `2H`, `4H`, `8H`, `12H`, `16H`, `1D`, `1W``), `2012-08-20` → `2026-07-03`.
 
 ## Download sample
 
@@ -44,9 +44,9 @@ Interactive chart & stats: **[https://ork-ad.github.io/bund-1d-ohlcv-commodities
 |---|--:|---|
 | Instrument | Euro Bund · Commodities | Euro Bund · Commodities |
 | Timeframes | `1d` (sample) | **13** — `1m`, `3m`, `5m`, `15m`, `30m`, `1H`, `2H`, `4H`, `8H`, `12H`, `16H`, `1D`, `1W` |
-| 1d rows | 510 | **521** |
-| Size | 0.03 MB | ~0.03 MB |
-| Period | `2024-07-02` → `2026-07-02` | `2024-06-17` → `2026-07-02` |
+| 1d rows | 507 | **3,548** |
+| Size | 0.02 MB | ~0.15 MB |
+| Period | `2024-07-03` → `2026-07-03` | `2012-08-20` → `2026-07-03` |
 | File | `BUND_1d.csv` | ZIP on [ork.ad](https://ork.ad/) |
 | Updates | Weekly (Sunday) — GitHub sample | Weekly (Sunday) — all timeframes |
 
@@ -73,21 +73,21 @@ First and latest rows from the GitHub sample **`BUND_1d.csv`**:
 
 | time | open | high | low | close | volume |
 | --- | --- | --- | --- | --- | --- |
-| 2024-07-02T00:00:00Z | 130.3993 | 130.7133 | 130.2583 | 130.4853 | 11731.0 |
-| 2024-07-03T00:00:00Z | 130.4853 | 130.9853 | 130.1983 | 130.7503 | 12549.0 |
-| 2024-07-04T00:00:00Z | 130.7503 | 130.7603 | 130.4983 | 130.5333 | 6139.0 |
-| 2024-07-05T00:00:00Z | 130.5333 | 131.1103 | 130.4283 | 131.0533 | 12889.0 |
-| 2024-07-08T00:00:00Z | 131.0533 | 131.3653 | 130.7083 | 131.2543 | 10132.0 |
+| 2024-07-03 | 130.496 | 130.996 | 130.209 | 130.761 | 12549 |
+| 2024-07-04 | 130.761 | 130.771 | 130.509 | 130.544 | 6139 |
+| 2024-07-05 | 130.544 | 131.121 | 130.439 | 131.064 | 12889 |
+| 2024-07-08 | 131.064 | 131.376 | 130.719 | 131.265 | 10132 |
+| 2024-07-09 | 131.265 | 131.265 | 130.759 | 131.019 | 9341 |
 
 **Last rows**
 
 | time | open | high | low | close | volume |
 | --- | --- | --- | --- | --- | --- |
 | time | open | high | low | close | volume |
-| 2026-06-27T00:00:00Z | 127.3893 | 127.3893 | 127.3893 | 127.3893 | 1.0 |
-| 2026-06-29T00:00:00Z | 127.387 | 127.478 | 127.266 | 127.371 | 6513.0 |
-| 2026-06-30T00:00:00Z | 127.371 | 127.663 | 127.136 | 127.162 | 8044.0 |
-| 2026-07-01T00:00:00Z | 127.162 | 127.198 | 126.838 | 127.007 | 7815.0 |
+| 2026-06-29 | 127.4 | 127.491 | 127.279 | 127.384 | 6513 |
+| 2026-06-30 | 127.384 | 127.676 | 127.149 | 127.175 | 8044 |
+| 2026-07-01 | 127.175 | 127.211 | 126.851 | 127.02 | 7816 |
+| 2026-07-02 | 127.02 | 127.046 | 126.67 | 126.806 | 7965 |
 
 ## Schema
 
@@ -145,9 +145,9 @@ print(pf.stats())
 
 ## Download full data
 
-The complete **BUND** archive on **[ork.ad](https://ork.ad/)** includes **13 OHLCV timeframes** (`1m`, `3m`, `5m`, `15m`, `30m`, `1H`, `2H`, `4H`, `8H`, `12H`, `16H`, `1D`, `1W`) — **521** rows at `1d`, plus all other timeframes in the same ZIP.
+The complete **BUND** archive on **[ork.ad](https://ork.ad/)** includes **13 OHLCV timeframes** (`1m`, `3m`, `5m`, `15m`, `30m`, `1H`, `2H`, `4H`, `8H`, `12H`, `16H`, `1D`, `1W`) — **3,548** rows at `1d`, plus all other timeframes in the same ZIP.
 
 **[→ Get the full BUND dataset on ork.ad](https://ork.ad/)**
 
 ---
-*GetData · BUND 1d OHLCV sample on GitHub · Full historical data on [ork.ad](https://ork.ad/) · 2026-07-04 UTC*
+*GetData · BUND 1d OHLCV sample on GitHub · Full historical data on [ork.ad](https://ork.ad/) · 2026-07-05 UTC*
